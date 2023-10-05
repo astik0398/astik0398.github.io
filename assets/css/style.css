@@ -394,11 +394,11 @@ section {
   background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 
-.section-title {
+.project-card {
   padding-bottom: 30px;
 }
 
-.section-title h2 {
+.project-card h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 15px;
@@ -407,7 +407,7 @@ section {
   color: #345676;
 }
 
-.section-title h2::after {
+.project-card h2::after {
   content: "";
   position: absolute;
   display: block;
@@ -418,7 +418,7 @@ section {
   left: 0;
 }
 
-.section-title p {
+.project-card p {
   margin-bottom: 0;
 }
 
