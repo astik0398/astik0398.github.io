@@ -5,16 +5,8 @@ import React from "react";
 
 function About() {
   return (
-    <div >
-      <h1 style={{textAlign:'center', marginTop:'50px', backgroundColor: "#200589",
-          width: "200px",
-          margin: "auto",
-          padding: "5px",
-          borderRadius: "15px",
-          color: "white",}}>About Me</h1>
-    
     <div id="about" className="about section">
-      
+      <h1 >About Me</h1>
       <div className="about_card">
         {/* <img className="about_img" src={img2} alt="" /> */}
         <p id="user-detail-intro" className="my-details">
@@ -26,7 +18,6 @@ function About() {
           solutions.
         </p>
       </div>
-    </div>
     </div>
   );
 }
