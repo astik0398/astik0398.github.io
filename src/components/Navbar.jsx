@@ -3,6 +3,7 @@ import AllRoutes from "./AllRoutes";
 import { Link } from "react-router-dom";
 import { MdMenu } from "react-icons/md";
 import { FaXmark } from "react-icons/fa6";
+import logo from "../images/Kumar_Astik_Logo-removebg-preview.png"
 
 function Navbar() {
   const [show, setshow] = useState(true);
@@ -32,7 +33,7 @@ function Navbar() {
   return (
     <div className="navbar" id="nav-menu">
       <div>
-        <h1>ASTIK</h1>
+        <img style={{width:'200px'}} src={logo} alt="" />
       </div>
       <button className="menu-btn" onClick={toggle}>
         {show ? <MdMenu/> : <FaXmark/>}
