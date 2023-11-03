@@ -1,59 +1,78 @@
 import React from "react";
-import { FaCss3Alt, FaJsSquare, FaHtml5, FaReact, FaSass, FaNodeJs, FaDribbble } from "react-icons/fa";
-{/* <FaHtml5 style={{ fontSize: "100px" }} />
+import {
+  FaCss3Alt,
+  FaJsSquare,
+  FaHtml5,
+  FaReact,
+  FaSass,
+  FaNodeJs,
+  FaDribbble,
+} from "react-icons/fa";
+{
+  /* <FaHtml5 style={{ fontSize: "100px" }} />
 <FaJsSquare style={{ fontSize: "100px" }} />
-<FaCss3Alt style={{ fontSize: "100px" }} /> */}
+<FaCss3Alt style={{ fontSize: "100px" }} /> */
+}
 const skills = [
   {
     name: "HTML",
-    icon : <FaHtml5 />
+    icon: <FaHtml5 />,
   },
   {
     name: "CSS",
-    icon : <FaCss3Alt />
+    icon: <FaCss3Alt />,
   },
   {
     name: "JS",
-    icon : <FaJsSquare />
+    icon: <FaJsSquare />,
   },
   {
     name: "REACT",
-    icon : <FaReact />
+    icon: <FaReact />,
   },
   {
     name: "REDUX",
-    icon : <FaHtml5 />
+    icon: <FaHtml5 />,
   },
   {
     name: "CHAKRA UI",
-    icon : <FaSass />
+    icon: <FaSass />,
   },
   {
     name: "NODE.JS",
-    icon : <FaNodeJs />
+    icon: <FaNodeJs />,
   },
   {
     name: "DRIBBLE",
-    icon : <FaDribbble />
-  }
+    icon: <FaDribbble />,
+  },
 ];
-
 
 function Skills() {
   return (
     <div id="skills">
-      <h1>Skills and Tools</h1>
+      <h1
+        style={{
+          backgroundColor: "#200589",
+          width: "300px",
+          margin: "auto",
+          padding: "5px",
+          borderRadius: "15px",
+          color: "white",
+          marginBottom:'50px'
+        }}
+      >
+        Skills and Tools
+      </h1>
       <div className="skills_deta">
-
-   
-      {skills.map((item) => (
-        <div className="skills-card">
-          {/* className="skills-card-img" */}
-          <div className="skills-card-img">{item.icon}</div>
-          <p className="skills-card-name">{item.name}</p>
-        </div>
-      ))}
-    </div>
+        {skills.map((item) => (
+          <div className="skills-card">
+            {/* className="skills-card-img" */}
+            <div className="skills-card-img">{item.icon}</div>
+            <p className="skills-card-name">{item.name}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
