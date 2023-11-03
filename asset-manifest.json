@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.358b07aa.css",
-    "main.js": "/static/js/main.c87c3ba8.js",
+    "main.css": "/static/css/main.2a43f6da.css",
+    "main.js": "/static/js/main.508d1640.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/greenscapes.png": "/static/media/greenscapes.e1124930f507615b3a2f.png",
     "static/media/brightSight.png": "/static/media/brightSight.2924b1902e951dd6d56c.png",
@@ -10,12 +10,12 @@
     "static/media/photo.jpg": "/static/media/photo.8445da421655510e5bbb.jpg",
     "static/media/Kumar_Astik_Logo-removebg-preview.png": "/static/media/Kumar_Astik_Logo-removebg-preview.afb6931fb1285292a50e.png",
     "index.html": "/index.html",
-    "main.358b07aa.css.map": "/static/css/main.358b07aa.css.map",
-    "main.c87c3ba8.js.map": "/static/js/main.c87c3ba8.js.map",
+    "main.2a43f6da.css.map": "/static/css/main.2a43f6da.css.map",
+    "main.508d1640.js.map": "/static/js/main.508d1640.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.358b07aa.css",
-    "static/js/main.c87c3ba8.js"
+    "static/css/main.2a43f6da.css",
+    "static/js/main.508d1640.js"
   ]
 }
