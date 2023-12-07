@@ -25,7 +25,7 @@ function Navbar() {
 
   const resumedown = () => {
     window.open(
-      "https://drive.google.com/file/d/1NobdSWq_kk6AnFJFN4h97uUUMt7ev3Ba/view?usp=sharing",
+      "https://drive.google.com/file/d/1CqmRqBeHW8WcD1hvW05HA98nJvMbKsfE/view?usp=sharing",
       "_blank"
     )
   };
@@ -58,11 +58,11 @@ function Navbar() {
         {/* <a  className='nav-link resume' id='resume-button-1' href="#resume">Resume</a> */}
         <Link onClick={()=>goTo(false)} 
           className="nav-link resume"
-          to="https://drive.google.com/uc?export=download&id=1NobdSWq_kk6AnFJFN4h97uUUMt7ev3Ba"
+          to="https://drive.google.com/uc?export=download&id=1CqmRqBeHW8WcD1hvW05HA98nJvMbKsfE"
         >
           <button
             id="resume-button-1"
-            //  style={{
+            //  style={{  
             //    background: "none",
             //    border: "none",
             //    fontWeight: "bold",

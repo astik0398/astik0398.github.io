@@ -1,14 +1,14 @@
 import React from "react";
 
 // import myimg from "../assests/my img.jpeg";
-import photo from "../images/photo.jpg";
+import photo from "../images/formalphoto.png";
 import { Link } from "react-router-dom";
 
 function Home() {
 
   const resumedown2 = () => {
     window.open(
-      "https://drive.google.com/file/d/1NobdSWq_kk6AnFJFN4h97uUUMt7ev3Ba/view?usp=sharing",
+      "https://drive.google.com/file/d/1CqmRqBeHW8WcD1hvW05HA98nJvMbKsfE/view?usp=sharing",
       "_blank"
       
     );
@@ -24,7 +24,7 @@ function Home() {
         <h1 id="user-detail-name">My name is Kumar Astik</h1>
         <Link
             className="nav-link resume"
-            to="https://drive.google.com/uc?export=download&id=1NobdSWq_kk6AnFJFN4h97uUUMt7ev3Ba"
+            to="https://drive.google.com/uc?export=download&id=1CqmRqBeHW8WcD1hvW05HA98nJvMbKsfE"
           >
             <button
               id="resume-button-2"
