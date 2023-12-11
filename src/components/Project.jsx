@@ -181,7 +181,7 @@ function Projects() {
               </div>
               <div
                 className="pro-anchortag"
-                style={{ display: "flex", margin: "auto", gap: "15px" }}
+                style={{ display: "flex", margin: "auto", gap: "15px"}}
               >
                 <a
                   className="project-github-link"
