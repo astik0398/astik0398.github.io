@@ -14,6 +14,7 @@ function Home() {
     );
   };
 
+  
   return (
     <div id="home">
       {/* <img className="backk" src="https://moneer-portfolio.netlify.app/static/media/fogtree.950d4c4e05476e6c70bb.jpg" alt="" /> */}
