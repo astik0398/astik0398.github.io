@@ -29,7 +29,7 @@ export default function Github() {
         <img
           id="github-top-langs"
           // style={{ width: "100%" }}
-          src="https://github-readme-stats.vercel.app/api/top-langs/?username=astik0398&theme=light&hide_border=false&include_all_commits=false&count_private=true&layout=compact"
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=astik0398&layout=compact&theme=default"
           alt="astik0398"
         />
 

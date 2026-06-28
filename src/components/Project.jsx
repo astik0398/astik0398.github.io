@@ -4,53 +4,62 @@ import dressify from "../images/dressify.png";
 import oddgras from "../images/greenscapes.png";
 import brightSight from "../images/brightSight.png";
 
-import { FaCss3Alt, FaJsSquare, FaHtml5, FaReact } from "react-icons/fa";
+import { SiTypescript, SiTwilio, SiOpenai, SiSupabase, SiTailwindcss, SiPuppeteer } from "react-icons/si";
+import { FaCss3Alt, FaJsSquare, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 // https://react-icons.github.io/react-icons/icons?name=fa
 
 let projects = [
   {
-    title: "Star Fishries",
+    title: "WorkFlow",
     img1: abc,
     description:
-      "Star fishries is an online food ordering website where you can order yourself some delicious snacks. We have a wide rane of fast foods ranging from chicken nuggets to wraps, you'll get all of them here.",
+      "A WhatsApp-first workforce management platform that lets businesses manage attendance, communication, and operations without requiring employees to install a separate app. Built with a Node.js/Express backend and Twilio integration, it supports configurable per-organization cron jobs for automated attendance tracking and a RAG-powered AI assistant (over Supabase) that lets employers query their workforce data conversationally.",
     skills: [
       {
-        name: "HTML",
-        icon: <FaHtml5 />,
+        name: "REACT",
+        icon: <FaReact />,
       },
       {
-        name: "CSS",
-        icon: <FaCss3Alt />,
+        name: "NODEJS",
+        icon: <FaNodeJs />,
       },
       {
-        name: "JS",
-        icon: <FaJsSquare />,
+        name: "TWILIO",
+        icon: <SiTwilio />,
+      },
+      {
+        name: "OPENAI",
+        icon: <SiOpenai />,
       },
     ],
-    git: "https://github.com/astik0398/gusty-crow-4734",
-    preview: "https://starfishries.netlify.app/",
+    git: "https://github.com/astik0398/whatsapp-work-hub",
+    preview: "https://whatsapp-work-hub.vercel.app",
   },
   {
-    title: "Dressify",
+    title: "MediBachat",
     img1: dressify,
     description:
-      "Dressify is one-stop destination for fashionable clothing  for men, women and children. Anyone can go through the wide range of products that are available on our website and order the desired one",
+      "MediBachat is a medicine price comparison platform that helps users find the most affordable options for their prescriptions across multiple online pharmacies. Built with a Node.js backend and Puppeteer-based web scraping to aggregate real-time pricing data, the platform is optimized for SEO and monetized through AdSense, helping everyday users save money on essential medication.",
     skills: [
       {
-        name: "HTML",
-        icon: <FaHtml5 />,
+        name: "REACT",
+        icon: <FaReact />,
       },
       {
-        name: "CSS",
-        icon: <FaCss3Alt />,
+        name: "TAILWIND",
+        icon: <SiTailwindcss />,
       },
       {
-        name: "JS",
-        icon: <FaJsSquare />,
+        name: "NODEJS",
+        icon: <FaNodeJs />,
+      },
+      {
+        name: "PUPPETEER",
+        icon: <SiPuppeteer />,
       },
     ],
-    git: "https://github.com/astik0398/ambiguous-oven-8467",
-    preview: "https://dressify-shopping.netlify.app/",
+    git: "https://github.com/astik0398/medsave-india",
+    preview: "https://medibachat.in",
   },
   {
     title: "Green Escapes",

@@ -1,13 +1,25 @@
 import React from "react";
 import {
-  FaCss3Alt,
-  FaJsSquare,
-  FaHtml5,
-  FaReact,
-  FaSass,
-  FaNodeJs,
-  FaDribbble,
-} from "react-icons/fa";
+  SiReact,
+  SiNodedotjs,
+  SiExpress,
+  SiMongodb,
+  SiSupabase,
+  SiTwilio,
+  SiOpenai,
+  SiPostman,
+  SiTypescript,
+  SiChakraui,
+  SiTailwindcss,
+  SiRedux,
+  SiHtml5,
+  SiPuppeteer,
+  SiRailway,
+  SiVercel,
+} from "react-icons/si";
+
+import {FaCss3Alt, FaGitAlt, FaHtml5, FaJs, FaNodeJs, FaReact } from "react-icons/fa"
+
 {
   /* <FaHtml5 style={{ fontSize: "100px" }} />
 <FaJsSquare style={{ fontSize: "100px" }} />
@@ -16,15 +28,15 @@ import {
 const skills = [
   {
     name: "HTML",
-    icon: <FaHtml5 />,
+    icon: <FaHtml5/>,
   },
   {
     name: "CSS",
-    icon: <FaCss3Alt />,
+    icon: <FaCss3Alt/>,
   },
   {
     name: "JS",
-    icon: <FaJsSquare />,
+    icon: <FaJs />,
   },
   {
     name: "REACT",
@@ -32,19 +44,56 @@ const skills = [
   },
   {
     name: "REDUX",
-    icon: <FaHtml5 />,
+    icon: <SiRedux />,
   },
   {
     name: "CHAKRA UI",
-    icon: <FaSass />,
+    icon: <SiChakraui />,
   },
+
+   {
+    name: "TAILWINDCSS",
+    icon: <SiTailwindcss />,
+  },
+
   {
     name: "NODE.JS",
     icon: <FaNodeJs />,
   },
+
+
+   {
+    name: "SUPABASE",
+    icon: <SiSupabase />,
+  },
   {
-    name: "DRIBBLE",
-    icon: <FaDribbble />,
+    name: "MONGODB",
+    icon: <SiMongodb />,
+  },
+
+  {
+    name: "GITHUB",
+    icon: <FaGitAlt />,
+  },
+
+   {
+    name: "TWILIO",
+    icon: <SiTwilio />,
+  },
+
+    {
+    name: "PUPPETEER",
+    icon: <SiPuppeteer />,
+  },
+
+      {
+    name: "RAILWAY",
+    icon: <SiRailway />,
+  },
+
+      {
+    name: "VERCEL",
+    icon: <SiVercel />,
   },
 ];
 

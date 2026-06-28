@@ -152,7 +152,7 @@
     .skills_deta {
       display: grid;
       grid-template-columns: repeat(3, auto);
-      grid-template-columns: repeat(auto-fit, 200px);
+      grid-template-columns: repeat(5, 200px);
       margin: auto;
       max-width: 65%;
       justify-content: center;
@@ -164,7 +164,7 @@
     }
   
     .skills-card {
-      width: 100%;
+      width: 95%;
       text-align: center;
       color: black;
       background-color: rgb(74, 113, 244);
@@ -178,7 +178,7 @@
   
       color: white;
       svg {
-        font-size: 150px;
+        font-size: 120px;
         filter: drop-shadow(2px 4px 6px black);
       }
       p {
