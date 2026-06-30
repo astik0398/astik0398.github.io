@@ -8,7 +8,7 @@ function Home() {
 
   const resumedown2 = () => {
     window.open(
-      "https://drive.google.com/file/d/1CqmRqBeHW8WcD1hvW05HA98nJvMbKsfE/view?usp=sharing",
+      "https://drive.google.com/file/d/1fscWrDp_H9C9NV7Nfg8jFJM1fjbQgSvC/view?usp=sharing",
       "_blank"
       
     );
@@ -25,7 +25,7 @@ function Home() {
         <h1 id="user-detail-name">My name is Kumar Astik</h1>
         <Link
             className="nav-link resume"
-            to="https://drive.google.com/uc?export=download&id=1CqmRqBeHW8WcD1hvW05HA98nJvMbKsfE"
+            to="https://drive.google.com/uc?export=download&id=1fscWrDp_H9C9NV7Nfg8jFJM1fjbQgSvC"
           >
             <button
               id="resume-button-2"
