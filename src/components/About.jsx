@@ -10,15 +10,12 @@ function About() {
       <div className="about_card">
         {/* <img className="about_img" src={img2} alt="" /> */}
         <p id="user-detail-intro" className="my-details">
-          Full-stack developer with close to two years of experience building
-          production software, most recently at an early-stage startup where I
-          built an AI-powered, WhatsApp-first workforce management platform
-          end-to-end. My core stack is MERN, complemented by Supabase and the
-          Twilio/WhatsApp Business API for building messaging-driven products.
-          Beyond my startup role, I independently designed and shipped a
-          medicine price comparison platform with over 100+ registered users,
-          enabling people to compare medicine prices across multiple platforms
-          and find the best deals.
+          Full Stack Developer with 2+ years of experience building
+          production-ready web applications. I enjoy solving real-world problems
+          by developing scalable, user-focused products from concept to
+          deployment. Passionate about creating clean, responsive, and
+          high-performance web applications, I continuously explore new
+          technologies and best practices to build impactful software.
         </p>
       </div>
     </div>

@@ -4,7 +4,7 @@ import dressify from "../images/dressify.png";
 import oddgras from "../images/greenscapes.png";
 import brightSight from "../images/brightSight.png";
 
-import { SiTypescript, SiTwilio, SiOpenai, SiSupabase, SiTailwindcss, SiPuppeteer } from "react-icons/si";
+import { SiTypescript, SiTwilio, SiOpenai, SiSupabase, SiTailwindcss, SiPuppeteer, SiRedux } from "react-icons/si";
 import { FaCss3Alt, FaJsSquare, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 // https://react-icons.github.io/react-icons/icons?name=fa
 
@@ -13,7 +13,7 @@ let projects = [
     title: "WorkFlow",
     img1: abc,
     description:
-      "A WhatsApp-first workforce management platform that lets businesses manage attendance, communication, and operations without requiring employees to install a separate app. Built with a Node.js/Express backend and Twilio integration, it supports configurable per-organization cron jobs for automated attendance tracking and a RAG-powered AI assistant (over Supabase) that lets employers query their workforce data conversationally.",
+      "A WhatsApp-first workforce management platform that enables businesses to manage attendance, communication, and operations without a separate app. Built with Node.js, Express, Twilio, and Supabase, it features automated attendance tracking and a RAG-powered AI assistant for conversational workforce data queries.",
     skills: [
       {
         name: "REACT",
@@ -26,11 +26,7 @@ let projects = [
       {
         name: "TWILIO",
         icon: <SiTwilio />,
-      },
-      {
-        name: "OPENAI",
-        icon: <SiOpenai />,
-      },
+      }
     ],
     git: "https://github.com/astik0398/whatsapp-work-hub",
     preview: "https://whatsapp-work-hub.vercel.app",
@@ -39,7 +35,7 @@ let projects = [
     title: "MediBachat",
     img1: dressify,
     description:
-      "MediBachat is a medicine price comparison platform that helps users find the most affordable options for their prescriptions across multiple online pharmacies. Built with a Node.js backend and Puppeteer-based web scraping to aggregate real-time pricing data, the platform is optimized for SEO and monetized through AdSense, helping everyday users save money on essential medication.",
+      "A medicine price comparison platform that helps users find affordable medicines across multiple online pharmacies. Built with Node.js and Puppeteer, it aggregates real-time pricing data, is SEO-optimized, and helps users save money on essential medications.",
     skills: [
       {
         name: "REACT",
@@ -48,10 +44,6 @@ let projects = [
       {
         name: "TAILWIND",
         icon: <SiTailwindcss />,
-      },
-      {
-        name: "NODEJS",
-        icon: <FaNodeJs />,
       },
       {
         name: "PUPPETEER",
@@ -94,6 +86,10 @@ let projects = [
       {
         name: "REACT",
         icon: <FaReact />,
+      },
+      {
+        name: "REDUX",
+        icon: <SiRedux />,
       },
       {
         name: "CHAKRA",
